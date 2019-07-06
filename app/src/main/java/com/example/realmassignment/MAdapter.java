@@ -59,7 +59,7 @@ public class MAdapter extends RecyclerView.Adapter<MAdapter.MViewHolder> {
         public MViewHolder(@NonNull View itemView) {
             super(itemView);
             count++;
-            int a =count;
+            int b =count;
             ConstraintLayout constraintLayout;
             name=itemView.findViewById(R.id.textView9);
             dept=itemView.findViewById(R.id.textView10);
@@ -67,8 +67,8 @@ public class MAdapter extends RecyclerView.Adapter<MAdapter.MViewHolder> {
             gender=itemView.findViewById(R.id.textView12);
             roll=itemView.findViewById(R.id.textView13);
             constraintLayout=itemView.findViewById(R.id.constraint);
-            a=a%4;
-            switch (a){
+            b=b%4;
+            switch (b){
                 case 0:constraintLayout.setBackgroundColor(Color.parseColor("#005EB8"));
                        break;
                 case 1:constraintLayout.setBackgroundColor(Color.parseColor("#ffff0000"));
