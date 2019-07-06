@@ -14,7 +14,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:background="#3E6B94">
+        android:id="@+id/constraint">
 
         <TextView
             android:id="@+id/textView9"
@@ -28,13 +28,13 @@
             android:layout_marginBottom="8dp"
             android:textColor="#FFFFFF"
             android:textSize="17dp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.072"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.060000002"
-            android:textStyle="bold"/>
+            app:layout_constraintVertical_bias="0.060000002" />
 
 
         <TextView
@@ -87,13 +87,13 @@
             android:layout_marginBottom="8dp"
             android:textColor="#FFFFFF"
             android:textSize="17dp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.931"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.145"
-            android:textStyle="bold"/>
+            app:layout_constraintVertical_bias="0.145" />
 
         <TextView
             android:id="@+id/textView13"
@@ -107,12 +107,12 @@
             android:layout_marginBottom="8dp"
             android:textColor="#FFFFFF"
             android:textSize="17dp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.932"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0"
-            android:textStyle="bold"/>
+            app:layout_constraintVertical_bias="1.0" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>
